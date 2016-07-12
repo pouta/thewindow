@@ -9,7 +9,7 @@ var router = express.Router();
 
 
 router.get('/', function(req, res) {
-	res.sendStatus(300);
+	res.send("The window starts here");
 });
 
 app.use('/api', router);
