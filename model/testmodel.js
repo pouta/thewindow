@@ -1,7 +1,7 @@
 var _ = require('lodash');
 var request = require('request');
 var wolframID = process.env.WOLFRAM_APPID || '8V3GVJ-YRYYTVWYJ4';
-var wolfram = require('wolfram').createClient();
+var wolfram = require('wolfram').createClient(wolframID);
 var baseUrl = process.env.BASE_URL || 'http://windowvationquizserver.elasticbeanstalk.com';
 
 module.exports = {
