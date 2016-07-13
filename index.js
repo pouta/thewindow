@@ -1,8 +1,8 @@
 var express = require('express');
 var bodyparser = require('body-parser');
-var wolfram = require('wolfram');
+var wolfram = require('wolfram').getClient(process.env.WOLFRAM_APPID);
 
-var testController = require('/controller/testCtrl.js');
+var testController = require('./controller/testCtrl.js');
 
 var app = express();
 app.use(bodyparser.text());
