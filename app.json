@@ -1,0 +1,7 @@
+{
+  "name": "TheWindow",
+  "description": "something",
+  "repository": "https://github.com/pouta/thewindow",
+  "logo": "",
+  "keywords": ["node", "express", "TheWindow"]
+}
