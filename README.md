@@ -8,5 +8,7 @@ This NLC will also understand where to answer and get the next questions by pars
 ## TODO:
 
 Wolfram Solution: done
+
 Collection of examples: in progress
+
 Using NLC: todo
