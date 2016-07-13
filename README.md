@@ -6,6 +6,16 @@ I will first solve this using wolfram alpha in order to answer questions, meanwh
 
 This NLC will also understand where to answer and get the next questions by parsing the response from each endpoint.
 
+##How to start the app:
+
+using heroku:
+
+Use the command: heroku local
+
+using node:
+
+Use the command: node index.js
+
 
 ## TODO:
 
