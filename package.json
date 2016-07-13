@@ -13,8 +13,8 @@
   },
   "devDependencies": {},
   "engines": {
-    "node": "5.5.0",
-    "npm": "3.8.3"
+    "node": "4.4.4",
+    "npm": "3.10.5"
   },
   "keywords": [
     "node",
